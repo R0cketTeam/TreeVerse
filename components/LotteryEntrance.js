@@ -205,9 +205,9 @@ export default function LotteryEntrance() {
                                                     await tokenID();
                                                 }
                                             }}
-                                            disabled={minting}
+                                            disabled
                                         >
-                                            {minting ? "Minting..." : "FirstMint"}
+                                            {minting ? "Minting..." : "Whitelist Mint"}
                                         </button>
                                     ) : (
                                         <button
@@ -230,9 +230,9 @@ export default function LotteryEntrance() {
                                                 setMerkleProof([])
                                                 await tokenID();
                                             }}
-                                            disabled={minting}
+                                            disabled
                                         >
-                                            {minting ? "Minting..." : "SecondMint"}
+                                            {minting ? "Minting..." : "Public Mint"}
                                         </button>
                                     ) : (
                                         <button
