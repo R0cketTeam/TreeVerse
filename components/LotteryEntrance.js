@@ -190,7 +190,7 @@ export default function LotteryEntrance() {
                             <span className="text-l font-semibold text-gray-900 dark:text-white tracking-widest">Price: 0.001 ETH</span>
                         </div>
                         <div className="flex items-center justify-between">
-                            <span className="text-l font-semibold text-gray-900 dark:text-white mt-2 tracking-widest">{tsupply} / 10,000 Minted</span>
+                            <span className="text-l font-semibold text-gray-900 dark:text-white mt-2 tracking-widest">{tsupply} / 9,999 Minted</span>
                         </div>
                         <div>
                             <div className="flex items-center justify-between">
