@@ -9,7 +9,7 @@ import { fetchIPFSData } from "../utils/fetchIPFSData"
 export default function NFTBoxContainer() {
     const [balance, setBalance] = useState("")
     const [nftsData, setNftsData] = useState([])
-    const provider = new ethers.providers.JsonRpcProvider("https://sepolia-testnet-rpc.mintchain.io");
+    const provider = new ethers.providers.JsonRpcProvider("https://rpc.mintchain.io");
     const TreeContract = process.env.TREE_CONTRACT;
     const contract = new ethers.Contract(TreeContract, TreeABI, provider);
 
